@@ -1,10 +1,13 @@
+cturn = 0
 def turn (board)
 puts "Please enter 1-9:"
 input = gets.strip
 index = input_to_index(input)
+until cturn = 1
 if valid_move?(board,index) == true then
   move(board,index,"X")
   display_board(board)
+  cturn += 1
 else puts "Please enter 1-9:"
 end
 end
