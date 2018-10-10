@@ -1,5 +1,5 @@
-cturn = 0
 def turn (board)
+cturn = 0
 until cturn == 1
 puts "Please enter 1-9:"
 input = gets.strip
