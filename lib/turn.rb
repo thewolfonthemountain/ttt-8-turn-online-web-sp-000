@@ -11,6 +11,7 @@ if valid_move?(board,index) == true then
 else puts "Please enter 1-9:"
 end
 end
+end
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
